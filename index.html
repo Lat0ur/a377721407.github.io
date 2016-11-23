@@ -75,9 +75,11 @@ var _hmt = _hmt || [];
 			</div>
 		</div>
 	</div>
-<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto" width=-1 height=-1
-            src="http://sz-btfs-yun-ftn.weiyun.com/ftn_handler/7a2c9fd123404c3cff1b4dd8ee2325efbc3a5573be4d0e6fdc7497535d3ac3b664ad64e354176bc3cb11b588c9743bb773a89e1491ba6d1233884be71946d3c0/情人节.mp3">
+<audio id="audio" src="http://sz-btfs-yun-ftn.weiyun.com/ftn_handler/7a2c9fd123404c3cff1b4dd8ee2325efbc3a5573be4d0e6fdc7497535d3ac3b664ad64e354176bc3cb11b588c9743bb773a89e1491ba6d1233884be71946d3c0/情人节.mp3" style="opacity:0" preload="auto" controls loop hidden="true"/>  
+var myAuto = document.getElementById('audio');  
+                    myAuto.play();  
+            
      
-</audio>
+
 </body>
 </html>
